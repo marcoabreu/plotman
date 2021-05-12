@@ -58,6 +58,8 @@ def compute_priority(phase, gb_free, n_plots):
     # rewrite as a sort function.
 
     priority = 50
+    # TODO: remove
+    return priority
 
     # To avoid concurrent IO, we should not touch drives that
     # are about to receive a new plot.  If we don't know the phase,
